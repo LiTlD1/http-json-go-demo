@@ -1,4 +1,4 @@
-package makeURLRequest
+package getHTTPJSON
 
 import (
 	"io/ioutil"
