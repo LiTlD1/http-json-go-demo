@@ -1,4 +1,4 @@
-package getHTTPJSON
+package main
 
 import (
 	"io/ioutil"
@@ -7,7 +7,7 @@ import (
 )
 
 //Return string from url query function
-func MakeURLRequest(url string) string {
+func makeURLRequest(url string) string {
 	resp, err := http.Get(url)
 	if err != nil {
 		log.Fatalln(err)
